@@ -1,0 +1,63 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Century of Humiliation"
+config/description="A cinematic third-person action campaign in five chapters. A scout crosses an occupied American city, past the checkpoint, the square they took and the face they hung over it."
+config/version="1.0.0"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+boot_splash/bg_color=Color(0.015, 0.017, 0.022, 1)
+boot_splash/show_image=false
+config/icon="res://icon.svg"
+boot_splash/minimum_display_time=600
+
+[autoload]
+
+Settings="*res://scripts/core/Settings.gd"
+AudioDirector="*res://scripts/core/AudioDirector.gd"
+Transition="*res://scripts/core/Transition.gd"
+GameManager="*res://scripts/core/GameManager.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[layer_names]
+
+3d_physics/layer_1="world"
+3d_physics/layer_2="player"
+3d_physics/layer_3="enemy"
+3d_physics/layer_4="interactable"
+3d_physics/layer_5="trigger"
+3d_physics/layer_6="hitbox"
+
+[physics]
+
+3d/default_gravity=24.0
+
+[rendering]
+
+; Required by the macOS exporter for universal/arm64 builds.  Enabling it adds
+; ETC2/ASTC variants at import time; desktop still uses S3TC/BPTC.
+textures/vram_compression/import_etc2_astc=true
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
+lights_and_shadows/positional_shadow/soft_shadow_filter_quality=3
+textures/default_filters/anisotropic_filtering_level=3
+anti_aliasing/quality/msaa_3d=2
+environment/defaults/default_clear_color=Color(0.02, 0.025, 0.03, 1)
+anti_aliasing/quality/screen_space_aa=1
+occlusion_culling/use_occlusion_culling=true

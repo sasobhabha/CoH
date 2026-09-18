@@ -1,0 +1,95 @@
+{
+ "_decal_grunge": {
+  "tile_m": 4.0
+ },
+ "asphalt": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 10.0
+ },
+ "brick": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 1.4
+ },
+ "canvas": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 1.6
+ },
+ "concrete": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 4.0
+ },
+ "concrete_dark": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 4.0
+ },
+ "concrete_floor": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 4.0
+ },
+ "dirt": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 3.0
+ },
+ "grass": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 4.0
+ },
+ "gravel": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 6.0
+ },
+ "plaster": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 2.4
+ },
+ "plaster_blue": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 2.4
+ },
+ "rock": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 3.0
+ },
+ "roof": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 4.0
+ },
+ "steel_paint": {
+  "metallic": 0.35,
+  "normal_strength": 1.0,
+  "tile_m": 2.0
+ },
+ "steel_red": {
+  "metallic": 0.35,
+  "normal_strength": 1.0,
+  "tile_m": 2.0
+ },
+ "steel_rust": {
+  "metallic": 0.45,
+  "normal_strength": 1.0,
+  "tile_m": 2.0
+ },
+ "wood": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 1.6
+ },
+ "wood_pale": {
+  "metallic": 0.0,
+  "normal_strength": 1.0,
+  "tile_m": 1.8
+ }
+}
