@@ -1,0 +1,6 @@
+# Godot caches
+.godot/
+.DS_Store
+
+# Build/release artifacts (attached to GitHub Releases instead)
+build/
